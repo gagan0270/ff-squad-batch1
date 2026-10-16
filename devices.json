@@ -271,5 +271,31 @@
     "memory": 4093,
     "processor_details": "ARM64 FP ASIMD AES | 2239 | 6",
     "client_ip": "177.90.37.246"
+  },
+  "8293198754": {
+    "unique_device_id": "Google|a9c484a7-9566-4ff4-9bb8-5835fd6ad989",
+    "brand": "Samsung",
+    "model": "SM-G998B",
+    "gpu_renderer": "Adreno (TM) 660",
+    "system_software": "Android OS 12 / API-31",
+    "screen_width": 1080,
+    "screen_height": 1600,
+    "screen_dpi": "332",
+    "memory": 4900,
+    "processor_details": "ARM64 FP ASIMD AES | 2339 | 8",
+    "client_ip": "201.166.163.168"
+  },
+  "8293273110": {
+    "unique_device_id": "Google|87b61412-3810-4f38-bb93-bee9c5af2ec9",
+    "brand": "OnePlus",
+    "model": "CPH2451",
+    "gpu_renderer": "Adreno (TM) 740",
+    "system_software": "Android OS 13 / API-33",
+    "screen_width": 720,
+    "screen_height": 3200,
+    "screen_dpi": "302",
+    "memory": 4054,
+    "processor_details": "ARM64 FP ASIMD AES | 3037 | 12",
+    "client_ip": "108.229.121.81"
   }
 }
