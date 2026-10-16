@@ -2032,6 +2032,8 @@ async def functional_battle_royale(addrs, starter_packet, account_region, client
                                     mode_id=mid, map_id=mp)
                                 match_index = await _inc_match(uid_str)
                                 total = await _get_total_match_count()
+                                try: bot_state.update_status(uid_str, "IN_MATCH", 1)
+                                except Exception: pass
                                 print_colored(f"[MATCH #{match_index}] UDP -> {server_ip_port} ({tag})", Colors.CYAN)
 
                                 new_match = asyncio.create_task(play_game(
